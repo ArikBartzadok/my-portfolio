@@ -5,6 +5,8 @@ export { Footer } from './Footer';
 export { GlobalStyles } from './GlobalStyles';
 export { HeaderBack } from './HeaderBack';
 export { HeaderLogo } from './HeaderLogo';
+export { HeadingBlogTheme }  from './HeadingBlogTheme';
+export { HeadingContact }  from './HeadingContact';
 export { HeadingL } from './HeadingL';
 export { HeadingTextLogo } from './HeadingTextLogo';
 export { HeadingXL } from './HeadingXL';

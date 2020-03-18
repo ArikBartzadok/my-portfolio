@@ -39,10 +39,15 @@ export const HeaderLogo = () => {
       </Link>
 
       <Link to="/about">
-        <p>About me</p>
+        <p>About me.</p>
       </Link>
+
+      <Link to="/blog">
+        <p>Blog.</p>
+      </Link>
+
       <Link to="/contact">
-        <p>Contact</p>
+        <p>Contact.</p>
       </Link>
     </HeaderWrapper>
   );

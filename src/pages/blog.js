@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
-import Typical from 'react-typical';
 
 import { BREAKPOINT } from '../utils/constants';
 
 import {
   HeaderLogo,
-  HeadingBlogTheme,
-  HeadingTextLogo,
   HeadingXL,
   HeadingXLII,
   HeadingL,
+  HeadingBlogTheme,
   Layout,
   SEO,
   TextBody,
@@ -52,38 +50,17 @@ const Post = styled.div`
   }
 `;
 
-const Home = ({ data }) => {
+const Blog = ({ data }) => {
   return (
     <>
       <SEO title="Blog" />
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>
-          <Typical
-              steps={['Hi,', 1000, 'Hi, Im Diogo.', 500]}
-              loop={Infinity}
-              wrapper="p"
-            />
-          </HeadingXL>
-
-          <HeadingXLII>I'm a full-stack developer</HeadingXLII>
-
+          <HeadingXL>My personal blog.</HeadingXL>
           <TextHome>          
-          This page was created to publicize the skills
-          that I developed and to return to society part of the knowledge I acquired.
-          Welcome to my little big universe!
+          here you can get to know the latest technologies in the universe of development
           </TextHome>
-
-      
-
-          <HeadingTextLogo>
-            <Typical
-              steps={['Blog.', 1000, 'Recent posts.', 500]}
-              loop={Infinity}
-              wrapper="p"
-            />
-          </HeadingTextLogo>
 
           <br />
         </Hero>
@@ -102,7 +79,7 @@ const Home = ({ data }) => {
   );
 };
 
-export default Home;
+export default Blog;
 
 export const query = graphql`
   query {

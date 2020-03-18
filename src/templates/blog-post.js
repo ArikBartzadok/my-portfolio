@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 
 import {
   HeaderBack,
+  HeadingBlogTheme,
   HeadingXL,
   Layout,
   SEO,
@@ -19,6 +20,7 @@ const BlogPost = ({ data }) => {
       <HeaderBack />
       <Layout>
         <HeadingXL>{post.frontmatter.title}</HeadingXL>
+        <HeadingBlogTheme>{post.frontmatter.theme}</HeadingBlogTheme>
         <TextDate>{post.frontmatter.date}</TextDate>
         <TextBody dangerouslySetInnerHTML={{ __html: post.html }} />
       </Layout>
@@ -35,6 +37,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        theme
       }
     }
   }
