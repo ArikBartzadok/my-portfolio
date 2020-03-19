@@ -57,7 +57,7 @@ const About1 = ({ data }) => {
           Mogi-Guaçu, São Paulo - Brazil
         </TextBody>
 
-        <Button href="mailto:your&#64;email.com">Get in touch</Button>
+        <Button href="mailto:diogo.santos134&#64;etec.sp.gov.br">Get in touch</Button>
       </Layout>
     </>
   );

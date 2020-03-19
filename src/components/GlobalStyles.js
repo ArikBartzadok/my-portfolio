@@ -15,6 +15,28 @@ export const GlobalStyles = createGlobalStyle`
     --sides-padding-mobile: 5%;
   }
 
+  ::webkit-scrollbar{
+    width: 10px;
+  }
+
+  ::webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  ::webkit-scrollbar-thumb{
+    background: linear-gradient(to top, #008aff, #00ffe7);   
+    animation: animateScrollBar 5s linear infinite;
+  }
+
+  @keyframes animateScrollBar{
+    0%, 100%{
+        filter: hue-rotate(0deg)
+    }
+    50%{
+        filter: hue-rotate(360deg)
+    }
+}
+
   @font-face {
     font-display: block;
     font-family: "IBMPlexMono";

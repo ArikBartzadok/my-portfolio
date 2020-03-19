@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `blog-and-portfolio`,
+    title: `Diogo.developer`,
     description: `A personal website.`,
     siteUrl: `https://diogodeveloper.netlify.com/`,
   },

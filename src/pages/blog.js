@@ -59,9 +59,8 @@ const Blog = ({ data }) => {
         <Hero>
           <HeadingXL>My personal blog.</HeadingXL>
           <TextHome>          
-          here you can get to know the latest technologies in the universe of development
+          Here you can get to know the latest technologies in the universe of development
           </TextHome>
-
           <br />
         </Hero>
         {data.allMarkdownRemark.edges.map(({ node }) => (

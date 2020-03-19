@@ -1,6 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Typical from 'react-typical';
+import { BuyCoffe, Kofi , GitHubLogo } from '../assets/icons';
+import styled from 'styled-components';
+import { BREAKPOINT } from '../utils/constants';
 
 import {
   Button,
@@ -14,6 +17,17 @@ import {
   TextBody,
 } from '../components';
 
+const Icon = styled.img`
+  border:0px;
+  height:36px;
+  margin: 0 auto 10vh auto;
+  text-align: center;
+
+  @media (max-width: ${BREAKPOINT}px) {
+    height: 36px;
+  }
+`;
+
 const About = ({ data }) => {
   return (
     <>
@@ -25,25 +39,57 @@ const About = ({ data }) => {
         </HeadingXL>
         <ImageProfile fluid={data.profile.childImageSharp.fluid} />
         <TextBody>
-        Hello welcome!
-
-
-My name is Diogo. I am a student of the technical course in Informatics integrated to High School, at Etec de Mogi-Guaçu.
+          Hello, welcome!
           <br />
-          Skills
+          My name is Diogo. I am a student of the technical course in Informatics integrated to 
+          High School, at Etec Euro Albino de Souza in Mogi-Guaçu.
           <br />
-          Hello world!
-
+          This page was created to divulge the skills that I have developed and to return to the 
+          society some of the knowledge I acquired.
+          <br />
         </TextBody>
 
         <HeadingXLII>
           My work
         </HeadingXLII>
+        <TextBody>
+          I currently work as a free-lancer in the development of Desktop, Web applications.
+          <br />
+          I work with the most diverse technologies present today, among them, being able to mention:
+
+          ReactJS,
+          ReactNative,
+          JavaScript,
+          CSS,
+          PHP,
+          C#,
+          C++,
+          Java,
+          Python and many others ...
+          <br />
+        </TextBody>
 
         <HeadingXLII>
           Projects
         </HeadingXLII>
-        <Button href="mailto:diogo.santos134&#64;etec.sp.gov.br">Get in touch</Button>
+        <TextBody>
+        <a href="https://github.com/ArikBartzadok?tab=repositories" target="_blank">
+          <Icon src={GitHubLogo} alt="My projects on GitHub" />
+        </a>
+        </TextBody>
+
+        <HeadingXLII>
+          Support me
+        </HeadingXLII>
+        <TextBody>
+          
+            
+          
+        </TextBody>
+        <a href="https://ko-fi.com/C0C81IJH6" target="_blank">
+          <Icon src={BuyCoffe} alt="Buy Me a Coffee at ko-fi.com" />
+        </a>
+
       </Layout>
     </>
   );

@@ -7,11 +7,13 @@ import { BREAKPOINT } from '../utils/constants';
 import { Rocket, GitHub, Netlify, GatsbyIcon, Gatsby, Brazil, Medium, Kofi} from '../assets/icons';
 
 const Container = styled.footer`
-  margin-top: 20vh;
+  margin-top: 10vh;
   padding-bottom: 10vh;
   padding-top: 5vh;
-  text-align: right;
-  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 
   @media (max-width: ${BREAKPOINT}px) {
 
@@ -21,10 +23,11 @@ const Container = styled.footer`
 const Icon = styled.img`
   height: 50px;
   width: 50px;
+  margin: 0 10px;
 
   @media (max-width: ${BREAKPOINT}px) {
-    height: 28px;
-    width: 28px;
+    height: 45px;
+    width: 45px;
   }
 `;
 
