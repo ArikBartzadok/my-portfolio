@@ -1,6 +1,6 @@
 <div align="center" style="margin-bottom:30px">
   
-[![Netlify Status](https://api.netlify.com/api/v1/badges/01a2e2de-d57d-4d89-8322-95685000e60f/deploy-status)](https://app.netlify.com/sites/diogodeveloper/deploys/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/01a2e2de-d57d-4d89-8322-95685000e60f/deploy-status)](https://app.netlify.com/sites/diogodeveloper/deploys/)
 
 # Hi, i'm Diogo.
 
