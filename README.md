@@ -8,9 +8,11 @@ I'm a **full-stack** developer.
 
 This page was created to publicize the **skills** that I developed and to return to society part of the **knowledge** I acquired.
 
-This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
+### Welcome to my little big universe!
 
-## Welcome to my little big universe!
+## Lighthouse Audit Score
+
+This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
 
 ## Author
 
