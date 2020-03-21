@@ -32,7 +32,9 @@ This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
 This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center" style="margin-bottom:30px">
-## Support me
+  
+# Support me
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C81IJH6)
+
 </div>
