@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/01a2e2de-d57d-4d89-8322-95685000e60f/deploy-status)](https://app.netlify.com/sites/diogodeveloper/deploys/)
 
-# Hi, i'm diogo.
+# Hi, i'm Diogo.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://diogodeveloper.netlify.com?repository=https://github.com/ArikBartzadok/my-portfolio/) 
 
