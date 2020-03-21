@@ -8,15 +8,13 @@ I'm a **full-stack** developer.
 
 This page was created to publicize the **skills** that I developed and to return to society part of the **knowledge** I acquired.
 
-## Welcome to my little big universe!
-
 This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C81IJH6)
+## Welcome to my little big universe!
 
 ## Author
 
-- [Diogo Ferreira](https://diogodeveloper.netlify.com/)
+[Diogo Ferreira](https://diogodeveloper.netlify.com/)
 
 ## License
 
