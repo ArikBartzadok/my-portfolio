@@ -41,7 +41,7 @@ const About = ({ data }) => {
         <TextBody>
           Hello, welcome!
           <br />
-          My name is Diogo. I am a student of the technical course in Informatics integrated to 
+          My name is Diogo, but i'm virtually known as Arik Bartzadok. I am a student of the technical course in Informatics integrated to 
           High School, at Etec Euro Albino de Souza in Mogi-Guaçu.
           <br />
           This page was created to divulge the skills that I have developed and to return to the 
