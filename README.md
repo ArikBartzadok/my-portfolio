@@ -10,7 +10,6 @@ This page was created to publicize the **skills** that I developed and to return
 
 ## Welcome to my little big universe!
 
-<<<<<<< HEAD
 This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C81IJH6)
@@ -22,6 +21,6 @@ This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-=======
+## Support me
+
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C81IJH6)
->>>>>>> a433e23c3dd1b824f29c73b578cacb55eb96571a
