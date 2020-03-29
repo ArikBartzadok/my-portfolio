@@ -6,7 +6,7 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://diogodeveloper.netlify.com?repository=https://github.com/ArikBartzadok/my-portfolio/) 
 
-I'm a **full-stack** developer.
+🚀 I'm a **full-stack** developer.
 
 This page was created to publicize the **skills** that I developed and to return to society part of the **knowledge** I acquired.
 
