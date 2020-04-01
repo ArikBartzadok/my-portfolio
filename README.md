@@ -21,7 +21,7 @@ This page was created to publicize the **skills** that I developed and to return
     </a>
 </div>
 
-This website was developed with GastsbyJS, ReactJS, NodeJS and GraphQL.
+This website was developed with **GastsbyJS**, **ReactJS**, **NodeJS** and **GraphQL**.
 
 ## Author
 
