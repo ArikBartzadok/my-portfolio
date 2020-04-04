@@ -15,8 +15,6 @@ This page was created to publicize the **skills** that I developed and to return
 ### Welcome to my little big universe!
 </div>
 
-This website was developed with **GastsbyJS**, **ReactJS**, **NodeJS** and **GraphQL**.
-
 ## Lighthouse Audit Score
 
 <div align="center">
@@ -24,6 +22,8 @@ This website was developed with **GastsbyJS**, **ReactJS**, **NodeJS** and **Gra
       <img src="src/assets/images/Pwa.png" alt="Lighthouse Score" />
     </a>
 </div>
+
+This website was developed with **GastsbyJS**, **ReactJS**, **NodeJS** and **GraphQL**.
 
 ## Install
 
