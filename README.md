@@ -2,6 +2,8 @@
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/01a2e2de-d57d-4d89-8322-95685000e60f/deploy-status)](https://app.netlify.com/sites/diogodeveloper/deploys/)
 
+<img src="/src/assets/images/diogo_pixel.png" alt="Pixel art"/>
+
 # Hi, i'm Diogo.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://diogodeveloper.netlify.com?repository=https://github.com/ArikBartzadok/my-portfolio/) 
