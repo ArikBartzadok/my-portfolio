@@ -15,6 +15,8 @@ This page was created to publicize the **skills** that I developed and to return
 ### Welcome to my little big universe!
 </div>
 
+This website was developed with **GastsbyJS**, **ReactJS**, **NodeJS** and **GraphQL**.
+
 ## Lighthouse Audit Score
 
 <div align="center">
@@ -23,7 +25,27 @@ This page was created to publicize the **skills** that I developed and to return
     </a>
 </div>
 
-This website was developed with **GastsbyJS**, **ReactJS**, **NodeJS** and **GraphQL**.
+## Install
+
+```
+$ git clone git@github.com:ArikBartzadok/my-portfolio.git <<PROJECT_NAME>>
+# Recommend you to delete `.git`
+$ cd <<PROJECT_NAME>> && rm -r .git
+```
+
+## Development
+```
+$ npm run dev
+# or
+$ gatsby develop
+```
+
+## Build
+```
+$ npm run build
+# or
+$ gatsby build
+```
 
 ## Author
 
