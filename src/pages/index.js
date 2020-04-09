@@ -12,6 +12,7 @@ import {
   HeadingXL,
   HeadingXLII,
   HeadingL,
+  ImageProfile,
   Layout,
   SEO,
   TextBody,
@@ -59,6 +60,7 @@ const Home = ({ data }) => {
       <HeaderLogo />
       <Layout>
         <Hero>
+          <ImageProfile fluid={data.profile_pixel.childImageSharp.fluid} />
           <HeadingXL>
           <Typical
               steps={['Hi,', 1000, 'Hi, Im Diogo.', 500]}
@@ -119,6 +121,13 @@ export const query = graphql`
             slug
           }
           excerpt
+        }
+      }
+    },
+    profile_pixel: file(relativePath: { eq: "assets/images/diogo_pixel_1_2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1400) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

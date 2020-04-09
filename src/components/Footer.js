@@ -80,14 +80,6 @@ export const Footer = () => {
       >
         <Icon src={Gatsby} alt="GatsbyJS" />
       </a>
-
-      <a
-        href="https://diogodeveloper.netlify.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Icon src={Brazil} alt="Brazil" />
-      </a>
     </Container>
   );
 };
