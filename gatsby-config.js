@@ -1,3 +1,5 @@
+const siteConfig = require("./siteConfig")
+
 module.exports = {
   siteMetadata: {
     title: `Diogo.developer`,
@@ -17,7 +19,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images`,
+        path: `${__dirname}/src/assets/images/`,
       },
     },
     `gatsby-plugin-catch-links`,
@@ -46,9 +48,23 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: siteConfig.name,
+        short_name: siteConfig.name,
+        start_url: siteConfig.prefix,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `minimal-ui`,
+        icon: `src/assets/images/diogo_pixel.png`,
+      },
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    
   ],
 };
