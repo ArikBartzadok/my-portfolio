@@ -40,7 +40,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 900,
-              quality: 75,
+              quality: 95,
               withWebp: true,
               linkImagesToOriginal: false,
             },
@@ -58,7 +58,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `minimal-ui`,
-        icon: `src/assets/images/diogo_pixel.png`,
+        icon: `src/assets/images/diogo_pixel_1_2.png`,
       },
     },
     `gatsby-plugin-offline`,

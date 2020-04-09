@@ -124,7 +124,7 @@ export const query = graphql`
         }
       }
     },
-    profile_pixel: file(relativePath: { eq: "assets/images/diogo_pixel_1_2.png" }) {
+    profile_pixel: file(relativePath: { eq: "assets/images/diogo_pixel_1.png" }) {
       childImageSharp {
         fluid(maxWidth: 1400) {
           ...GatsbyImageSharpFluid_withWebp
