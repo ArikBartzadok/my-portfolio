@@ -77,12 +77,15 @@ const About = ({ data }) => {
           <Icon src={GitHubLogo} alt="My projects on GitHub" />
         </a>
         </TextBody>
+<<<<<<< HEAD
         <TextBody>
           ipsis-literis
           <a href="https://ipsis-literis.now.sh" target="_blank">
           <Icon src={GitHubLogo} alt="My projects on GitHub" />
         </a>
         </TextBody>
+=======
+>>>>>>> d00310e04bd20847989ab5fc607e73637b2d2fc0
 
         <HeadingXLII>
           Support me
