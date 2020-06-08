@@ -15,7 +15,7 @@ This page was created to publicize the **skills** that I developed and to return
 ### Welcome to my little big universe!
 </div>
 
-## Lighthouse Audit Score:
+## Lighthouse Audit Score
 
 <div align="center">
     <a href="https://developers.google.com/web/tools/lighthouse/">
