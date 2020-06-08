@@ -1,11 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Typical from 'react-typical';
-<<<<<<< HEAD
 import { BuyCoffe, Kofi , GitHubLogo, Alsemo, Carcaras, Euro, Ipsis, Jessica } from '../assets/icons';
-=======
-import { BuyCoffe, Kofi , GitHubLogo } from '../assets/icons';
->>>>>>> a1d0d0687c8ac52150c239d051029472c71ce8a8
 import styled from 'styled-components';
 import { BREAKPOINT } from '../utils/constants';
 
@@ -77,7 +73,6 @@ const About = ({ data }) => {
           Projects
         </HeadingXLII>
         <TextBody>
-<<<<<<< HEAD
     
         <a href="https://henrique-designer.now.sh" target="_blank">
           <Icon src={Alsemo} alt="Designer" />
@@ -111,21 +106,7 @@ const About = ({ data }) => {
           <Icon src={Carcaras} alt="Carcaras" />
         </a>
         </TextBody>
-=======
-        <a href="https://github.com/ArikBartzadok?tab=repositories" target="_blank">
-          <Icon src={GitHubLogo} alt="My projects on GitHub" />
-        </a>
-        </TextBody>
-<<<<<<< HEAD
-        <TextBody>
-          ipsis-literis
-          <a href="https://ipsis-literis.now.sh" target="_blank">
-          <Icon src={GitHubLogo} alt="My projects on GitHub" />
-        </a>
-        </TextBody>
-=======
->>>>>>> d00310e04bd20847989ab5fc607e73637b2d2fc0
->>>>>>> a1d0d0687c8ac52150c239d051029472c71ce8a8
+
 
         <HeadingXLII>
           Support me

@@ -11,7 +11,6 @@ import Kofi from './Kofi.png';
 import BuyCoffe from './BuyCoffe.png';
 import Linkedin from './Linkedin.png';
 
-<<<<<<< HEAD
 import Alsemo from './alsemo.png';
 import Carcaras from './carcaras.png';
 import Euro from './euro.png';
@@ -19,6 +18,3 @@ import Ipsis from './ipsis.png';
 import Jessica from './jessica.png';
 
 export { ArrowBack, GatsbyIcon, Rocket, GitHub, Netlify, Gatsby, Brazil, Medium , Kofi, BuyCoffe, GitHubLogo, Linkedin, Alsemo, Carcaras, Euro, Ipsis, Jessica };
-=======
-export { ArrowBack, GatsbyIcon, Rocket, GitHub, Netlify, Gatsby, Brazil, Medium , Kofi, BuyCoffe, GitHubLogo, Linkedin };
->>>>>>> a1d0d0687c8ac52150c239d051029472c71ce8a8
