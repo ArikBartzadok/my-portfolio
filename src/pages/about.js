@@ -95,8 +95,8 @@ const About = ({ data }) => {
         
         <TextBody>
         
-          <a href="https://jessica-sweets.now.sh" target="_blank">
-          <Icon src={Jessica} alt="Jessica Sweets" />
+          <a href="https://santos-gourmet.now.sh" target="_blank">
+          <Icon src={Jessica} alt="Santos Gourmet" />
         </a>
         </TextBody>
         
