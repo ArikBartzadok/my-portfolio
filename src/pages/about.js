@@ -129,7 +129,7 @@ export default About;
 
 export const query = graphql`
   query {
-    profile: file(relativePath: { eq: "assets/images/diogo.jpg" }) {
+    profile: file(relativePath: { eq: "assets/images/diogo_new.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1400) {
           ...GatsbyImageSharpFluid_withWebp
