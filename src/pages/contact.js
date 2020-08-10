@@ -40,13 +40,16 @@ const About1 = ({ data }) => {
         <TextBody>
           diogo.santos134@etec.sp.gov.br
           <br />
+          or
+          <br />
+          diogobartzadok@bk.ru
         </TextBody>
 
         <HeadingContact>
-        Phone:
+        Social Medias:
         </HeadingContact>
         <TextBody>
-          (+55) 19 99162-1516
+          @dhiogo_fer
           <br />
         </TextBody>
 
