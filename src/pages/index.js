@@ -69,7 +69,7 @@ const Home = ({ data }) => {
             />
           </HeadingXL>
 
-          <HeadingXLII>I'm a full-stack developer</HeadingXLII>
+          <HeadingXLII>I'm a Jr. Developer</HeadingXLII>
 
           <TextHome>          
           This page was created to publicize the skills
